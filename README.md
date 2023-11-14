@@ -1,1 +1,1 @@
-# Octanet-internship-project-2
+# Octanet-internship-projects
