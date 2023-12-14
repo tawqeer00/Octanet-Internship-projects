@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  font-family: "Nunito", sans-serif;
+  background: #f6f6f9;
+
+  margin: 0;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding: 22px 120px 0px 50px;
+}
+.navbar a {
+  font-size: 22px;
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+  font-weight: 500;
+}
+
+.hero {
+  padding: 250px 0px 0px 30px;
+}
+.hero h1,
+h3,
+h4 {
+  padding: 8px;
+}
+.ist {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#myImage {
+  height: 400px;
+  width: 400px;
+  border-radius: 300px;
+}
+.image {
+  position: relative;
+  bottom: 0;
+  padding: 80px 160px 0px 0px;
+}
+#work {
+  background-color: rgba(120, 120, 120, 0.4);
+  width: 58%;
+  border-radius: 15px;
+
+  padding: 5px 5px 5px 8px;
+}
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: green;
+
+  border-radius: 50%;
+
+  display: inline-block;
+}
+.about h1 {
+  text-align: center;
+  width: 15%;
+  margin-left: 340px;
+}
+
+.about h4 {
+  text-align: center;
+  width: 90%;
+  margin: 20px 0px 0px 40px;
+}
+.outer1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.section {
+  position: relative;
+  width: 60%;
+  margin: 80px 0px 0px 280px;
+}
+.slider1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 8px 0px 25px 0px;
+}
+
+.services h1 {
+  text-align: center;
+  width: 20%;
+  margin: 30px 0px 20px 320px;
+}
+.s1 {
+  height: 10px;
+
+  background-color: rgb(0, 63, 131);
+}
+
+.s2 {
+  height: 10px;
+
+  background-color: rgb(160, 160, 160);
+}
+
+/* sliders */
+
+#html1 {
+  width: 95%;
+}
+#html2 {
+  width: 5%;
+}
+#css1 {
+  width: 90%;
+}
+#css2 {
+  width: 10%;
+}
+#js1 {
+  width: 80%;
+}
+#js2 {
+  width: 20%;
+}
+#bs1 {
+  width: 80%;
+}
+#bs2 {
+  width: 20%;
+}
+#react1 {
+  width: 70%;
+}
+#react2 {
+  width: 30%;
+}
+#node1 {
+  width: 60%;
+}
+#node2 {
+  width: 40%;
+}
+
+.myServices {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.sr {
+  width: 250px;
+  height: 260px;
+  background-color: white;
+  padding: 10px 5px 5px 10px;
+}
+.sr #icons {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact h1 {
+  text-align: center;
+  width: 20%;
+  margin: 30px 0px 20px 320px;
+}
+#contact {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+#contact img {
+  margin: 20px 0px 0px 5px;
+}
+.contact span {
+  font-size: 25px;
+  color: rgb(33, 33, 33);
+}
+.message {
+  margin-top: 30px;
+}
+.message h4 {
+  font-size: 18px;
+  font-weight: 400;
+}
+.message p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.message input[type="text"] {
+  width: 100%;
+  border-style: none;
+  border-radius: 2px;
+  height: 25px;
+
+  border-color: white;
+  background-color: white;
+  padding: 5px;
+  font-size: 16px;
+}
+.message input[type="email"] {
+  width: 100%;
+  border-style: none;
+  border-radius: 2px;
+  height: 25px;
+
+  border-color: white;
+  background-color: white;
+  padding: 5px;
+  font-size: 16px;
+}
+#btn {
+  margin-top: 10px;
+  width: 20%;
+
+  border-style: none;
+  border-radius: 30px;
+  height: 25px;
+  color: white;
+
+  border-color: rgb(55, 62, 201);
+  background-color: rgb(55, 62, 201);
+  padding: 10px 20px 30px 20px;
+  font-size: 17px;
+}
+
+.media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  margin: 30px 0px 30px 0px;
+}
+.media a {
+  margin-right: 10px;
+}
+
+footer {
+  text-align: center;
+}
+footer h1 {
+  font-size: 40px;
+  color: rgb(32, 32, 32);
+  font-weight: bolder;
+}
+footer h5 {
+  font-size: 15px;
+  color: rgb(32, 32, 32);
+  padding-top: 5px;
+  margin-bottom: 30px;
+}
